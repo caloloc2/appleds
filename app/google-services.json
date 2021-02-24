@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "6498071469",
+    "firebase_url": "https://pruebaleds-default-rtdb.firebaseio.com",
+    "project_id": "pruebaleds",
+    "storage_bucket": "pruebaleds.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6498071469:android:bfbae07ecd9afc2d882724",
+        "android_client_info": {
+          "package_name": "com.proyecto.leds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6498071469-8hg88n6f837toiptll2r67788959oq98.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFP2cPp1zT-Fz885DQTGk_tJzUj4_erPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6498071469-8hg88n6f837toiptll2r67788959oq98.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
