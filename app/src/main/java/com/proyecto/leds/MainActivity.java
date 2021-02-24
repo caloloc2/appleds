@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     Button btn_led;
     private DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference();
     int estado_led = 0;
-    private LineGraphSeries mSeries;
+//    private LineGraphSeries mSeries;
 
     GraphView graph;
 
@@ -34,10 +34,10 @@ public class MainActivity extends AppCompatActivity {
 
         potenciometro = (TextView)findViewById(R.id.txt_potenciometro);
         btn_led = (Button)findViewById(R.id.btn_led);
-        graph = (GraphView) findViewById(R.id.graph);
-        mSeries = new LineGraphSeries<>();
-        graph.addSeries(mSeries);
-        graph.getViewport().setXAxisBoundsManual(true);
+//        graph = (GraphView) findViewById(R.id.graph);
+//        mSeries = new LineGraphSeries<>();
+//        graph.addSeries(mSeries);
+//        graph.getViewport().setXAxisBoundsManual(true);
 
         btn_led.setOnClickListener(new View.OnClickListener() {
             @Override
